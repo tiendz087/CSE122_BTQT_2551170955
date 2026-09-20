@@ -1,0 +1,45 @@
+.page
+{
+    width:1350px;
+    border:1px solid #9E9E9E;
+    background-color:#FFFDE7;
+    text-align:center;
+    margin: 86px 242px;
+}
+
+.header
+{
+    color:#D40000;
+    background-color:#FFD9E6;
+    margin:50px 50px;
+
+}
+
+.header h1
+{
+    font-size:40px;
+}
+
+.kho1,.kho3
+{
+    color:#0033CC;
+    font-style:italic;
+     font-size:25px;
+
+}
+
+.kho2
+{
+    color:#D40000;
+    font-style:italic;
+    font-size:25px;
+}
+
+hr
+{
+    width:55%;
+    margin:30px auto;
+    border:none;
+    border-top:1px solid #0033CC;
+
+}
