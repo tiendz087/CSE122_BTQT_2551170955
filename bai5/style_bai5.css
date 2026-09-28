@@ -1,0 +1,56 @@
+.body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    width:1000px;
+    margin:0 auto;
+}
+
+.header
+{
+     color:#C2185B;
+     text-align:center;
+}
+
+.title
+{
+    background-color:#FFC0CB;
+    font-weight:bold;
+    font-size:25px;
+    margin-bottom:20px;
+}
+
+.content
+{
+    display:flex;
+}
+
+.list_square
+{
+    list-style: square;
+}
+
+.list_square
+{
+    list-style: square;
+}
+
+.list_circle
+{
+    list-style: circle;
+}
+
+.copyright
+{
+    color:#0000EE;
+    text-decoration:underline;
+    text-align:right;
+}
+
+.left img
+{
+    height:65%;
+}

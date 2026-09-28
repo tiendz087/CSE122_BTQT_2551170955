@@ -1,0 +1,54 @@
+.page
+{
+    background:linear-gradient(to bottom, #7ec8e3 ,#0a5c8a);
+    padding:40px 20px;
+}
+
+.container
+{
+    background-color: white;
+    width:1000px;
+    margin:0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.header
+{
+    color:#0b3d5c;
+    font-size: 15px;
+    text-align:center;
+}
+
+.intro p
+{
+    background-color:#0b3d5c;
+    color:#FFFFFF;
+    padding:20px;
+    border-radius: 5px;
+    font-style:italic;
+}
+
+.content
+{
+    display:flex;
+    gap: 20px;
+}
+
+.text p
+{
+    text-align:justify;
+}
+
+.text p::first-letter
+{
+    font-size:30px;
+    line-height: 40px;
+    color:#0b3d5c;
+}
+
+.image img
+{
+    width:300px;
+    border-radius:8px;
+}
