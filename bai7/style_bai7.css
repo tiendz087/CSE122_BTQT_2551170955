@@ -1,0 +1,75 @@
+.page
+{
+    width:700px;
+    margin:0px auto;
+    border:1px solid rgb(177, 176, 176);
+}
+
+.title
+{
+    background-color: #C8102E;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    padding:10px;
+    font-weight:bold;
+}
+
+.banner
+{
+    text-align:center;
+    font: size 15px;
+    padding:7px;
+    font-weight:bold;
+    background-color: #FBE3E8;
+    color:#C8102E;
+}
+
+.content
+{
+    overflow:hidden;
+    padding-top:20px;
+}
+
+.left-column
+{
+    float:left;
+    width:45%;
+    padding-right:15px;
+    padding-top:200px;
+    box-sizing: border-box;
+    padding-left:15px;
+}
+
+.right-column
+{
+    float:right;
+    width:55%;
+    padding-left:15px;
+    border-left:1px solid gray;
+    box-sizing: border-box;
+}
+
+h3
+{
+
+    color:#C8102E;
+    font-size:15px;
+    display: list-item;
+    list-style: square;
+}
+
+ul
+{
+    color:#333333;
+}
+
+.right-column img
+{
+    float:right;
+    width:130px;
+    margin:0 0 10 10;
+}
+
+
+
