@@ -1,0 +1,64 @@
+.page
+{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    max-width: 1000px;
+    margin:auto;
+    background-color:  #FFFFFF;
+    border: 5px solid gray;
+    border-radius: 15px ;
+}
+
+.left
+{
+    background: linear-gradient(#1565C0,#0d3f7a);
+    color:white;
+    text-align: center;
+    padding :20px 20px; 
+}
+
+.left p
+{
+    text-align: left;
+    font-size:15px;
+}
+
+.avatar
+{
+    width:100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    color:#1565C0;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    margin:auto;
+}
+
+.right
+{
+    padding:20px;
+}
+
+h3
+{
+    color:#1565C0;
+    border-bottom: 2px solid gray;
+    padding-bottom:10px;
+}
+
+.skills span
+{
+    display:inline-block;
+    background: #e3f0ff;
+    color:#0d3f7a;
+    padding:5px 12px;
+    border-radius: 15px;
+    margin:5px;
+}
+
+a
+{
+    color:#1565C0;
+}

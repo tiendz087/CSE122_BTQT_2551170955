@@ -1,0 +1,80 @@
+.form
+{
+    max-width: 1000px;
+    margin:auto;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 0 5 15 gray;
+    overflow:hidden;
+}
+
+.header
+{
+    background-color: #0f766e;
+    color:white;
+    padding:15px 20px;
+}
+
+.header p
+{
+    font-size:15px;
+}
+
+.content
+{
+    padding:20px;
+}
+
+.row
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+
+.field
+{
+    margin:12px;
+}
+
+label
+{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color:#334155;
+    margin:5px;
+}
+
+input,select,textarea
+{
+    width:100%;
+    padding:10px;
+    border:1px solid #cbd5e1;
+    border-radius:4px;
+}
+
+.check
+{
+    display:flex;
+    align-items: center;
+    gap:8px;
+    margin:15 0;
+}
+
+button
+{
+    background: #0f766e;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+
+.reset
+{
+    background: #e2e8f0;
+    color:#334155;
+}
+

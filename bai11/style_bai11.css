@@ -1,0 +1,46 @@
+.gallery
+{
+    max-width: 1500px;
+    background: #0f172a;
+    color:#e2e8f0;
+    margin:30px auto;
+    padding:20px;
+    
+}
+
+h2,p
+{
+    text-align: center;
+}
+
+.images
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+figure
+{
+    background: #1e293b;
+    object-fit: cover;
+    display: block;
+}
+
+img
+{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+}
+
+figcaption
+{
+    color:  #cbd5e1;
+    font-size: 13px;
+    padding:8px;
+}
+
+
+
