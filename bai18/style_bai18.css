@@ -1,0 +1,68 @@
+.container
+{
+    margin:auto;
+    width:700px;
+    padding:10px;
+    overflow:auto;
+}
+
+h1
+{
+    color:#E65100;
+    font-size:25px;
+}
+
+.subtitle
+{
+    color:#E65100;
+    font-size:15px;
+    margin-bottom:10px;
+}
+
+.content
+{
+    overflow:auto;
+}
+
+.content img
+{
+    float:right;
+    width:200px;
+    margin-left: 10px;
+}
+
+.content p
+{
+    text-align:justify;
+}
+
+.content p:first-of-type::first-letter
+{
+    float:left;
+    color:#E65100;
+    font-size:36px;
+    font-weight:bold;
+    line-height:1;
+    padding:5px;
+}
+
+.food
+{
+    border:1px solid#2E7D32 ;
+    background-color: #f4fbf4;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.food h3
+{
+    color:#2E7D32;
+    font-style: italic;
+}
+
+.food ul
+{
+    columns:2;
+    padding-left:20px;
+}
+

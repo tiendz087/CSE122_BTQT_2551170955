@@ -1,0 +1,90 @@
+body
+{
+    margin:10px auto;
+    width: 80%;
+    font-size: 12;
+}
+
+.header
+{
+    background-color: #C62828;
+    color:white;
+    padding:10px;
+
+}
+
+.header img
+{
+    width:30px;
+}
+
+.menu
+{
+    background: linear-gradient(#C62828 , #8E0000);
+    color:white;
+    width:200px;
+    float:left;
+    height:300px;
+}
+
+.menu p
+{
+    padding:10px;
+    border-bottom: 1px solid gray;
+    margin:0;
+}
+
+.main
+{
+    display: flex;
+    gap:15px;
+    margin-left: 150px;
+}
+
+.content
+{
+    flex:1;
+    padding:20px;
+}
+
+h3
+{
+    color:#C62828;
+    margin:5px 0;
+}
+
+.sub-menu
+{
+    background-color: #FFE082;
+    padding:10px;
+    border-radius: 3px;
+}
+
+.box
+{
+    border: 1px solid gray;
+    padding:10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.box p
+{
+    text-align: center;
+}
+
+.ads
+{
+    width: 150px;
+}
+
+.ads img
+{
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+

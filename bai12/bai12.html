@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 12 - In lịch</title>
+    <link rel="stylesheet" href="style_bai12.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calendar">
+            <div class="date">
+                <div id="year"></div>
+                <div id="month"></div>
+                <div id="day"></div>
+                <div id="weekday"></div>
+            </div>
+        </div>
+
+        <p id="greeting"></p>
+
+        <div class="form">
+            <div>Ngày <input id="d" type="number"></div>
+            <div>Ngày <input id="m" type="number"></div>
+            <div>Ngày <input id="y" type="number"></div>
+            <button onclick="showDate()"> In lịch</button>
+        </div>
+    </div>
+    <script src="bai12.js"></script>
+</body>
+</html>

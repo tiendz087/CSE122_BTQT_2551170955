@@ -1,0 +1,70 @@
+.container
+{
+    width:700px;
+    height:700px;
+    margin:auto;
+}
+
+.calendar
+{
+    box-shadow: 0 0 15px gray;
+    text-align: center;
+}
+
+.date
+{
+    border:1px solid gray;
+    padding:15px;
+    color:#1565C0;
+}
+
+#year
+{
+    color:red;
+}
+
+#day
+{
+    color:#C62828;
+    font-weight: bold;
+    font-size:50;
+}
+
+#month,#weekday
+{
+    font-size:20px;
+}
+
+#greeting
+{
+    color:#C62828;
+    font-style:italic;
+}
+
+.form
+{
+    border:2px solid  #1565C0;
+    padding:15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form div
+{
+    text-align: center;
+}
+
+input
+{
+    width: 60px;
+    text-align: center;
+}
+
+button
+{
+    background-color: gray;
+    border:1px;
+    color:white;
+}
+
+
