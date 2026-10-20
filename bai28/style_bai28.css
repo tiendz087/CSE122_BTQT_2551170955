@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 490px;
+    background: #f8f9fa;
+}
+
+.carousel img {
+    height: 175px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.carousel-caption {
+    color: white;
+    padding-bottom: 15px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.carousel-caption h5 {
+    font-size: 14px;
+}
+
+.carousel-caption p {
+    font-size: 11px;
+}
+
+.tab-content {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 12px;
+    min-height: 38px;
+}

@@ -1,0 +1,21 @@
+
+/* Ảnh trong thẻ */
+.card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Hiệu ứng khi rê chuột */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px #ccc;
+}
+
+/* Nút chi tiết */
+.btn-danger {
+    background: #dc3545;
+}
